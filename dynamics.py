@@ -2,7 +2,6 @@ import numpy as np
 from typing import Tuple, Optional
 from dataclasses import dataclass
 
-
 @dataclass
 class SatelliteConfig:
     inertia_x: float = 1.0
