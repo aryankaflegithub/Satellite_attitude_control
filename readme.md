@@ -168,7 +168,8 @@ u = Kp × error + Ki × ∫error + Kd × (-angular_velocity)
 ```
 
 **2. Untrained RL :**
-
+This is the not fully trained RL with just the initial values.
+It is to give a base line for the trained RL
 
 **3. PPO RL Agent:**
 - Neural network: 256×256 hidden layers with Tanh activation
